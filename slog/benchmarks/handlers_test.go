@@ -5,8 +5,8 @@ import (
 	"context"
 	"testing"
 
-	"golang.org/x/exp/slices"
-	"golang.org/x/exp/slog"
+	"github.com/fromelicks/exp/slices"
+	"github.com/fromelicks/exp/slog"
 )
 
 func TestHandlers(t *testing.T) {

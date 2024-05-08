@@ -12,8 +12,8 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/exp/slog"
-	"golang.org/x/exp/slog/slogtest"
+	"github.com/fromelicks/exp/slog"
+	"github.com/fromelicks/exp/slog/slogtest"
 )
 
 func TestSlogtest(t *testing.T) {

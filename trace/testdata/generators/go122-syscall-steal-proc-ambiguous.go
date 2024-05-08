@@ -18,9 +18,9 @@
 package main
 
 import (
-	"golang.org/x/exp/trace"
-	"golang.org/x/exp/trace/internal/event/go122"
-	testgen "golang.org/x/exp/trace/internal/testgen/go122"
+	"github.com/fromelicks/exp/trace"
+	"github.com/fromelicks/exp/trace/internal/event/go122"
+	testgen "github.com/fromelicks/exp/trace/internal/testgen/go122"
 )
 
 func main() {

@@ -10,10 +10,10 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"golang.org/x/exp/event"
-	elogr "golang.org/x/exp/event/adapter/logr"
-	"golang.org/x/exp/event/eventtest"
-	"golang.org/x/exp/event/severity"
+	"github.com/fromelicks/exp/event"
+	elogr "github.com/fromelicks/exp/event/adapter/logr"
+	"github.com/fromelicks/exp/event/eventtest"
+	"github.com/fromelicks/exp/event/severity"
 )
 
 func TestInfo(t *testing.T) {

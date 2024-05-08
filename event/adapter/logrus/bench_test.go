@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/sirupsen/logrus"
-	"golang.org/x/exp/event/eventtest"
+	"github.com/fromelicks/exp/event/eventtest"
 )
 
 var (

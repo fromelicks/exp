@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"go.opentelemetry.io/otel/attribute"
-	"golang.org/x/exp/event"
+	"github.com/fromelicks/exp/event"
 )
 
 func TestMeter(t *testing.T) {
@@ -27,25 +27,25 @@ func TestMeter(t *testing.T) {
 	// got := metrictest.AsStructs(mp.MeasurementBatches)
 	// want := []metrictest.Measured{
 	// 	{
-	// 		Name:    "golang.org/x/exp/event/otel_test/hits",
+	// 		Name:    "github.com/fromelicks/exp/event/otel_test/hits",
 	// 		Number:  number.NewInt64Number(8),
 	// 		Labels:  emptyLabels,
 	// 		Library: lib,
 	// 	},
 	// 	{
-	// 		Name:    "golang.org/x/exp/event/otel_test/temp",
+	// 		Name:    "github.com/fromelicks/exp/event/otel_test/temp",
 	// 		Number:  number.NewFloat64Number(-100),
 	// 		Labels:  map[attribute.Key]attribute.Value{"location": attribute.StringValue("Mare Imbrium")},
 	// 		Library: lib,
 	// 	},
 	// 	{
-	// 		Name:    "golang.org/x/exp/event/otel_test/latency",
+	// 		Name:    "github.com/fromelicks/exp/event/otel_test/latency",
 	// 		Number:  number.NewInt64Number(int64(1248 * time.Millisecond)),
 	// 		Labels:  emptyLabels,
 	// 		Library: lib,
 	// 	},
 	// 	{
-	// 		Name:    "golang.org/x/exp/event/otel_test/latency",
+	// 		Name:    "github.com/fromelicks/exp/event/otel_test/latency",
 	// 		Number:  number.NewInt64Number(int64(1255 * time.Millisecond)),
 	// 		Labels:  emptyLabels,
 	// 		Library: lib,

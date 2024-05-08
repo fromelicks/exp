@@ -15,8 +15,8 @@ import (
 
 	sdktrace "go.opentelemetry.io/otel/sdk/trace"
 	"go.opentelemetry.io/otel/trace"
-	"golang.org/x/exp/event"
-	"golang.org/x/exp/event/otel"
+	"github.com/fromelicks/exp/event"
+	"github.com/fromelicks/exp/event/otel"
 )
 
 func TestTrace(t *testing.T) {

@@ -15,8 +15,8 @@ import (
 	"log"
 	"os"
 
-	"golang.org/x/exp/trace/internal/raw"
-	"golang.org/x/exp/trace/internal/version"
+	"github.com/fromelicks/exp/trace/internal/raw"
+	"github.com/fromelicks/exp/trace/internal/version"
 )
 
 func init() {

@@ -11,10 +11,10 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"go.uber.org/zap"
-	"golang.org/x/exp/event"
-	ezap "golang.org/x/exp/event/adapter/zap"
-	"golang.org/x/exp/event/eventtest"
-	"golang.org/x/exp/event/severity"
+	"github.com/fromelicks/exp/event"
+	ezap "github.com/fromelicks/exp/event/adapter/zap"
+	"github.com/fromelicks/exp/event/eventtest"
+	"github.com/fromelicks/exp/event/severity"
 )
 
 func Test(t *testing.T) {

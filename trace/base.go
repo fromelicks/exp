@@ -16,9 +16,9 @@ import (
 	"math"
 	"strings"
 
-	"golang.org/x/exp/trace/internal/event"
-	"golang.org/x/exp/trace/internal/event/go122"
-	"golang.org/x/exp/trace/internal/version"
+	"github.com/fromelicks/exp/trace/internal/event"
+	"github.com/fromelicks/exp/trace/internal/event/go122"
+	"github.com/fromelicks/exp/trace/internal/version"
 )
 
 // maxArgs is the maximum number of arguments for "plain" events,

@@ -22,8 +22,8 @@ import (
 
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
-	"golang.org/x/exp/event"
-	"golang.org/x/exp/event/severity"
+	"github.com/fromelicks/exp/event"
+	"github.com/fromelicks/exp/event/severity"
 )
 
 type core struct {

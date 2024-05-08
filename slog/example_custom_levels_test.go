@@ -7,7 +7,7 @@ package slog_test
 import (
 	"os"
 
-	"golang.org/x/exp/slog"
+	"github.com/fromelicks/exp/slog"
 )
 
 // This example demonstrates using custom log levels and custom log level names.

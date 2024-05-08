@@ -11,7 +11,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"golang.org/x/exp/shiny/iconvg"
+	"github.com/fromelicks/exp/shiny/iconvg"
 )
 
 func Example() {

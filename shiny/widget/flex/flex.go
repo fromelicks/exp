@@ -17,8 +17,8 @@ import (
 	"image"
 	"math"
 
-	"golang.org/x/exp/shiny/widget/node"
-	"golang.org/x/exp/shiny/widget/theme"
+	"github.com/fromelicks/exp/shiny/widget/node"
+	"github.com/fromelicks/exp/shiny/widget/theme"
 )
 
 // Direction is the direction in which flex items are laid out.

@@ -10,7 +10,7 @@ import (
 	"os"
 	"strings"
 
-	"golang.org/x/exp/apidiff"
+	"github.com/fromelicks/exp/apidiff"
 	"golang.org/x/tools/go/gcexportdata"
 	"golang.org/x/tools/go/packages"
 )

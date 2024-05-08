@@ -34,9 +34,9 @@ package trace
 import (
 	"errors"
 	"fmt"
-	"golang.org/x/exp/trace/internal/event"
-	"golang.org/x/exp/trace/internal/event/go122"
-	"golang.org/x/exp/trace/internal/oldtrace"
+	"github.com/fromelicks/exp/trace/internal/event"
+	"github.com/fromelicks/exp/trace/internal/event/go122"
+	"github.com/fromelicks/exp/trace/internal/oldtrace"
 	"io"
 )
 

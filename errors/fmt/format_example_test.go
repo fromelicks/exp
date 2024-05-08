@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"regexp"
 
-	"golang.org/x/exp/errors"
-	"golang.org/x/exp/errors/fmt"
+	"github.com/fromelicks/exp/errors"
+	"github.com/fromelicks/exp/errors/fmt"
 )
 
 func baz() error { return errors.New("baz flopped") }
@@ -29,19 +29,19 @@ func Example_formatting() {
 	//
 	// Detailed error:
 	// foo:
-	//     golang.org/x/exp/errors/fmt_test.foo
-	//         golang.org/x/exp/errors/fmt/format_example_test.go:17
+	//     github.com/fromelicks/exp/errors/fmt_test.foo
+	//         github.com/fromelicks/exp/errors/fmt/format_example_test.go:17
 	//   - bar(nameserver 139):
-	//     golang.org/x/exp/errors/fmt_test.bar
-	//         golang.org/x/exp/errors/fmt/format_example_test.go:16
+	//     github.com/fromelicks/exp/errors/fmt_test.bar
+	//         github.com/fromelicks/exp/errors/fmt/format_example_test.go:16
 	//   - baz flopped:
-	//     golang.org/x/exp/errors/fmt_test.baz
-	//         golang.org/x/exp/errors/fmt/format_example_test.go:15
+	//     github.com/fromelicks/exp/errors/fmt_test.baz
+	//         github.com/fromelicks/exp/errors/fmt/format_example_test.go:15
 }
 
 func stripPath(s string) string {
 	rePath := regexp.MustCompile(`( [^ ]*)/fmt`)
-	s = rePath.ReplaceAllString(s, " golang.org/x/exp/errors/fmt")
+	s = rePath.ReplaceAllString(s, " github.com/fromelicks/exp/errors/fmt")
 	s = filepath.ToSlash(s)
 	return s
 }

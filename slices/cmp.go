@@ -4,7 +4,7 @@
 
 package slices
 
-import "golang.org/x/exp/constraints"
+import "github.com/fromelicks/exp/constraints"
 
 // min is a version of the predeclared function from the Go 1.21 release.
 func min[T constraints.Ordered](a, b T) T {

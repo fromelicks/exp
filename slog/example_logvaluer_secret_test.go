@@ -7,8 +7,8 @@ package slog_test
 import (
 	"os"
 
-	"golang.org/x/exp/slog"
-	"golang.org/x/exp/slog/internal/testutil"
+	"github.com/fromelicks/exp/slog"
+	"github.com/fromelicks/exp/slog/internal/testutil"
 )
 
 // A token is a secret value that grants permissions.

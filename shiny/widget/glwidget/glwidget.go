@@ -12,8 +12,8 @@ import (
 	"image"
 	"image/draw"
 
-	"golang.org/x/exp/shiny/driver/gldriver"
-	"golang.org/x/exp/shiny/widget/node"
+	"github.com/fromelicks/exp/shiny/driver/gldriver"
+	"github.com/fromelicks/exp/shiny/widget/node"
 	"golang.org/x/mobile/gl"
 )
 

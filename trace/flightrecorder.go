@@ -19,7 +19,7 @@ import (
 	"time"
 	_ "unsafe" // for go:linkname
 
-	"golang.org/x/exp/trace/internal/event/go122"
+	"github.com/fromelicks/exp/trace/internal/event/go122"
 )
 
 // FlightRecorder represents a flight recording configuration.

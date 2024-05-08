@@ -12,7 +12,7 @@ import (
 	"runtime"
 	"time"
 
-	"golang.org/x/exp/slog"
+	"github.com/fromelicks/exp/slog"
 )
 
 // Infof is an example of a user-defined logging function that wraps slog.

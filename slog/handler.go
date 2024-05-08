@@ -13,8 +13,8 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/exp/slices"
-	"golang.org/x/exp/slog/internal/buffer"
+	"github.com/fromelicks/exp/slices"
+	"github.com/fromelicks/exp/slog/internal/buffer"
 )
 
 // A Handler handles log records produced by a Logger..

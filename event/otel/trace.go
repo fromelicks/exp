@@ -8,7 +8,7 @@ import (
 	"context"
 
 	"go.opentelemetry.io/otel/trace"
-	"golang.org/x/exp/event"
+	"github.com/fromelicks/exp/event"
 )
 
 type TraceHandler struct {

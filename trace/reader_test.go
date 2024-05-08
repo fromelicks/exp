@@ -18,10 +18,10 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/exp/trace"
-	"golang.org/x/exp/trace/internal/raw"
-	"golang.org/x/exp/trace/internal/testtrace"
-	"golang.org/x/exp/trace/internal/version"
+	"github.com/fromelicks/exp/trace"
+	"github.com/fromelicks/exp/trace/internal/raw"
+	"github.com/fromelicks/exp/trace/internal/testtrace"
+	"github.com/fromelicks/exp/trace/internal/version"
 )
 
 var (

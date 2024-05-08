@@ -8,7 +8,7 @@ package slices
 import (
 	"unsafe"
 
-	"golang.org/x/exp/constraints"
+	"github.com/fromelicks/exp/constraints"
 )
 
 // Equal reports whether two slices are equal: the same length and all

@@ -10,7 +10,7 @@ import (
 
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
-	slogbench "golang.org/x/exp/slog/benchmarks"
+	slogbench "github.com/fromelicks/exp/slog/benchmarks"
 )
 
 // Keep in sync (same names and behavior) as the

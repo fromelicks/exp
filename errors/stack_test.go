@@ -10,9 +10,9 @@ import (
 	"math/big"
 	"testing"
 
-	"golang.org/x/exp/errors"
-	"golang.org/x/exp/errors/fmt"
-	"golang.org/x/exp/errors/internal"
+	"github.com/fromelicks/exp/errors"
+	"github.com/fromelicks/exp/errors/fmt"
+	"github.com/fromelicks/exp/errors/internal"
 )
 
 type myType struct{}

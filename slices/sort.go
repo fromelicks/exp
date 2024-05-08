@@ -9,7 +9,7 @@ package slices
 import (
 	"math/bits"
 
-	"golang.org/x/exp/constraints"
+	"github.com/fromelicks/exp/constraints"
 )
 
 // Sort sorts a slice of any ordered type in ascending order.

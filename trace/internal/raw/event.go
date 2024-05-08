@@ -12,8 +12,8 @@ import (
 	"strconv"
 	"strings"
 
-	"golang.org/x/exp/trace/internal/event"
-	"golang.org/x/exp/trace/internal/version"
+	"github.com/fromelicks/exp/trace/internal/event"
+	"github.com/fromelicks/exp/trace/internal/version"
 )
 
 // Event is a simple representation of a trace event.

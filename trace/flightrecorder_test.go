@@ -16,9 +16,9 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/exp/trace/internal/testtrace"
+	"github.com/fromelicks/exp/trace/internal/testtrace"
 
-	. "golang.org/x/exp/trace"
+	. "github.com/fromelicks/exp/trace"
 )
 
 func TestFlightRecorderDoubleStart(t *testing.T) {

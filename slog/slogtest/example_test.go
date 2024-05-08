@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"golang.org/x/exp/slog"
-	"golang.org/x/exp/slog/slogtest"
+	"github.com/fromelicks/exp/slog"
+	"github.com/fromelicks/exp/slog/slogtest"
 )
 
 // This example demonstrates one technique for testing a handler with this

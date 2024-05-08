@@ -8,11 +8,11 @@ import (
 	"context"
 	"testing"
 
-	"golang.org/x/exp/event"
-	"golang.org/x/exp/event/eventtest"
+	"github.com/fromelicks/exp/event"
+	"github.com/fromelicks/exp/event/eventtest"
 )
 
-const thisImportPath = "golang.org/x/exp/event_test"
+const thisImportPath = "github.com/fromelicks/exp/event_test"
 
 func TestNamespace(t *testing.T) {
 	event.RegisterHelper(testHelperB)

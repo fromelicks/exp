@@ -23,8 +23,8 @@ import (
 	"context"
 
 	"github.com/sirupsen/logrus"
-	"golang.org/x/exp/event"
-	"golang.org/x/exp/event/severity"
+	"github.com/fromelicks/exp/event"
+	"github.com/fromelicks/exp/event/severity"
 )
 
 type formatter struct{}

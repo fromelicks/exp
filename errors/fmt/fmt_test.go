@@ -6,7 +6,7 @@ package fmt_test
 
 import (
 	"bytes"
-	. "golang.org/x/exp/errors/fmt"
+	. "github.com/fromelicks/exp/errors/fmt"
 	"io"
 	"math"
 	"reflect"

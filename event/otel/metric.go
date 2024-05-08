@@ -12,7 +12,7 @@ import (
 
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/metric"
-	"golang.org/x/exp/event"
+	"github.com/fromelicks/exp/event"
 )
 
 // MetricHandler is an event.Handler for OpenTelemetry metrics.

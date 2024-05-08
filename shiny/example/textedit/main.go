@@ -6,7 +6,7 @@
 // +build example
 
 //
-// This build tag means that "go install golang.org/x/exp/shiny/..." doesn't
+// This build tag means that "go install github.com/fromelicks/exp/shiny/..." doesn't
 // install this example program. Use "go run main.go" to run it or "go install
 // -tags=example" to install it.
 
@@ -19,12 +19,12 @@ package main
 import (
 	"log"
 
-	"golang.org/x/exp/shiny/driver"
-	"golang.org/x/exp/shiny/screen"
-	"golang.org/x/exp/shiny/unit"
-	"golang.org/x/exp/shiny/widget"
-	"golang.org/x/exp/shiny/widget/node"
-	"golang.org/x/exp/shiny/widget/theme"
+	"github.com/fromelicks/exp/shiny/driver"
+	"github.com/fromelicks/exp/shiny/screen"
+	"github.com/fromelicks/exp/shiny/unit"
+	"github.com/fromelicks/exp/shiny/widget"
+	"github.com/fromelicks/exp/shiny/widget/node"
+	"github.com/fromelicks/exp/shiny/widget/theme"
 )
 
 func stretch(n node.Node, alongWeight int) node.Node {

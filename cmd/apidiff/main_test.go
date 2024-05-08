@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"golang.org/x/exp/apidiff"
+	"github.com/fromelicks/exp/apidiff"
 )
 
 func TestIsInternalPackage(t *testing.T) {

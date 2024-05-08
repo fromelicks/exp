@@ -13,8 +13,8 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"golang.org/x/exp/trace/internal/event"
-	"golang.org/x/exp/trace/internal/event/go122"
+	"github.com/fromelicks/exp/trace/internal/event"
+	"github.com/fromelicks/exp/trace/internal/event/go122"
 )
 
 type batchCursor struct {

@@ -15,9 +15,9 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"golang.org/x/exp/event"
-	"golang.org/x/exp/event/adapter/logfmt"
-	"golang.org/x/exp/event/eventtest"
+	"github.com/fromelicks/exp/event"
+	"github.com/fromelicks/exp/event/adapter/logfmt"
+	"github.com/fromelicks/exp/event/eventtest"
 )
 
 var (

@@ -11,8 +11,8 @@ import (
 
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
-	"golang.org/x/exp/slog"
-	slogbench "golang.org/x/exp/slog/benchmarks"
+	"github.com/fromelicks/exp/slog"
+	slogbench "github.com/fromelicks/exp/slog/benchmarks"
 )
 
 func TestEncoders(t *testing.T) {
